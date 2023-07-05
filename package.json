@@ -1,0 +1,48 @@
+{
+  "name": "landing-monitoring-tpu-bekasi",
+  "version": "2.0.2",
+  "author": "",
+  "license": "ISC",
+  "description": "landing-monitoring-tpu-bekasi",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "lint:watch": "esw src --color --watch",
+    "start": "next start",
+    "test": "jest --passWithNoTests",
+    "test:cover": "npm run test -- --coverage",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "axios": "^0.26.0",
+    "next": "12.1.0",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "sharp": "^0.30.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-sonarjs": "^0.12.0",
+    "eslint-watch": "^8.0.0",
+    "jest": "^27.5.1",
+    "postcss": "^8.4.7",
+    "prop-types": "^15.8.1",
+    "react-test-renderer": "^17.0.2",
+    "tailwindcss": "^3.0.23"
+  }
+}

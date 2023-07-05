@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/TodoItem render correctly 1`] = `
+<li
+  className="flex bg-gray-100 p-3 my-2"
+>
+  <button
+    className="mr-2 font-bold text-red-400"
+    onClick={[Function]}
+  >
+    X
+  </button>
+  <p />
+</li>
+`;
