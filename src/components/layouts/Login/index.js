@@ -6,10 +6,6 @@ import { Button, TextField } from '@mui/material';
 
 export default function Login() {
 
-  const handleLogin = () => {
-    console.log('ada');
-  };
-
   return (
     <React.Fragment>
       <div className={styles.containerHeaderLogin}>
