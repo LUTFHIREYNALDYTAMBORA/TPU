@@ -1,0 +1,75 @@
+.containerHeaderLogin {
+  display: flex;
+  align-items: center;
+}
+
+.wrappHeaderLogin {
+  margin-left: 10px;
+  line-height: 17px;
+}
+
+.h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 12px;
+}
+
+.wrappTitleLogin {
+  margin: 30px 0px 30px 0px;
+}
+
+.h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wrappField {
+  margin-bottom: 15px;
+}
+
+.forgotPassword {
+  color: #1EB74C !important;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.forgotPassword:hover {
+  cursor: pointer;
+}
+
+.btnLoginForm {
+  margin-top: 10px;
+  background-color: #1EB74C !important;
+  color: #FFF !important;
+  border-color: #FFF !important;
+  text-transform: capitalize;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.wrappContactUs {
+  align-items: center;
+  color: #828282;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.iconInfo {
+  margin-right: 5px;
+}
+
+.contactUs {
+  color: #1EB74C !important;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.contactUs:hover {
+  cursor: pointer;
+}

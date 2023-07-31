@@ -18,3 +18,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.Mui-selected {
+  color: #1EB74C !important;
+  font-weight: bold;
+}
+
+.leaflet-container {
+  height: 85vh;
+}
+
+.leaflet-bottom {
+  display: none;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: #018c2b;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+  background-color: #1EB74C;
+}

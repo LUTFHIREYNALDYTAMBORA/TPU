@@ -23,6 +23,10 @@ function MyApp(props) {
 
         {/* Favicon */}
         <link href="/favicon.ico" rel="shortcut icon" />
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css"
+          rel="stylesheet"
+        />
 
         {/* Meta OG Open Graph; Membagikan konten SEO kepada Facebook */}
         <meta content="Codebase Frontend SSR - TelkomDev" name="og:title" />

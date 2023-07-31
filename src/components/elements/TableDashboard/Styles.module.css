@@ -1,0 +1,21 @@
+.wrappValueBoxFilter {
+  border-radius: 2px;
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
+  height: 20px;
+  justify-content: center;
+  margin-right: 5px;
+  text-align: center;
+  width: 20px;
+}
+
+.wrapFilter {
+  align-items: center;
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.wrapFilter:hover {
+  cursor: pointer;
+}

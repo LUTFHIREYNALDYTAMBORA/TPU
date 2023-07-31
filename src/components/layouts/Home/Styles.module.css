@@ -1,0 +1,234 @@
+.copyright {
+  text-align: center;
+  border-top: 1px solid #007B55;
+  color: #FFF;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.firstSection {
+  padding-top: 120px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.titleSection1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.lahanTPU {
+  color: green;
+}
+
+.descSection1 {
+  width: 600px;
+}
+
+.wrappImgSection1 {
+  margin-top: 50px;
+}
+
+.secondSection {
+  padding: 50px;
+  text-align: justify;
+}
+
+.h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card {
+  border: 1px solid #DFE3E8;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  margin: 10px 0px 10px 0px;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.thirdSection {
+  background-color: #005249;
+  padding: 0px 50px 45px;
+  margin-top: -5px;
+}
+
+.wrappTitleThirdSection {
+  width: 70%;
+}
+
+.sideLeftThirdSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.wrappIconThirdSection {
+  margin: 0px 0px 30px 150px;
+}
+
+.sideRightThirdSection {
+  margin-top: -50px;
+  width: 100%;
+  display: flex;
+}
+
+.aboutApp {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: -40px;
+}
+
+.bgApp {
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.tpuThirdSection {
+  height: 170px !important;
+  width: 170px !important;
+  position: relative !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardThirdSection {
+  background-color: #007B55;
+  border-radius: 8px;
+  padding: 20px;
+  color: #FFFFFF;
+  width: 368px;
+  height: 290px;
+  margin-right: 15px;
+  text-align: justify;
+}
+
+.numberThirdSection {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 15px;
+  color: #FFFFFF;
+}
+
+.wrappDesc {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.wrappSasaran {
+  list-style: decimal;
+  padding: 20px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.sideLeftFourthSection {
+  width: 40%;
+  margin-left: 10%;
+}
+
+.sideRightFourthSection2 {
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 7%;
+}
+
+.fitur1 {
+  width: 200px !important;
+}
+
+.sideRightFourthSection {
+  width: 40%;
+  margin-top: 7%;
+}
+
+.sideLeftFourthSection2 {
+  width: 40%;
+}
+
+.wrappIcon {
+  background-color: #1EB74C;
+  padding: 2px;
+  height: fit-content;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.wrappLogos {
+  border: 1px solid #DFE3E8;
+  border-radius: 8px;
+  padding: 2px;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sixthSection {
+  background-color: #005249;
+}
+
+.wrappContentFooter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sideLefitSixthSection {
+  width: 50%;
+  padding: 30px 80px;
+}
+
+.sideRightSixthSection {
+  width: 40%;
+  padding: 30px;
+}
+
+.btnStartManage {
+  background-color: #1EB74C !important;
+  color: #FFF !important;
+  border-color: #FFF !important;
+  text-transform: capitalize;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.titleFooter {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.descFooter {
+  color: #FFF !important;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.sosmedFooter {
+  margin-top: 20px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

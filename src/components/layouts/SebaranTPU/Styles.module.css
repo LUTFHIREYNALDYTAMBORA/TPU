@@ -1,0 +1,40 @@
+.wrapAlert {
+  background-color: rgb(200, 250, 204, .4);
+  border: 2px solid #C8FACD;
+  border-radius: 12px;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.boldAlert {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.descAlert {
+  font-size: 14px;
+}
+
+.containerHead {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  width: 50%;
+}
+
+.wrappFilter {
+  width: 30%;
+}
+
+.wrapMaps {
+  display: block;
+  margin-top: -80px !important;
+  width: 100% !important;
+}

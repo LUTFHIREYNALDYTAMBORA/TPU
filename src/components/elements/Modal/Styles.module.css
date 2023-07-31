@@ -1,0 +1,21 @@
+.container {
+  background-color: #FFF;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-shadow: 24;
+  left: 50%;
+  padding: 4px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+.wrappBtnClose {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrappContent {
+  padding: 0px 30px 30px 30px;
+}
