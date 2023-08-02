@@ -1,0 +1,25 @@
+.wrapField {
+  margin: 20px 0px 20px 0px;
+}
+
+.wrapBtn {
+  background-color: #1EB74C;
+  text-transform: capitalize;
+}
+
+.wrapBtn:hover {
+  background-color: #059931;
+}
+
+.wrapBtnCancel {
+  text-transform: capitalize;
+  background-color: #fff;
+  border-color: #919EAB;
+  color: #212B36;
+  margin-right: 10px
+}
+
+.wrapBtnCancel:hover {
+  border-color: #11161c;
+  color: #11161c;
+}

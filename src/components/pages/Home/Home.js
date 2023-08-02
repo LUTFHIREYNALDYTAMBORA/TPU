@@ -1,31 +1,77 @@
+/* eslint-disable react/jsx-max-depth */
+import React, { useState } from 'react';
 import Head from 'next/head';
-import React from 'react';
-
-import HomeCardItem from '../../elements/HomeCardItem/HomeCardItem';
-import homepageItemData from './constant';
+import Image from 'next/image';
+import logo from '../../assets/logo.svg';
+import tpu from '../../assets/tpu.svg';
+import styles from './Styles.module.css';
+import { Button } from '@mui/material';
+import Tab from '@mui/material/Tab';
+import TabContext from '@mui/lab/TabContext';
+import TabList from '@mui/lab/TabList';
+import ContentHome from '../../layouts/Home';
+import Map from '../../layouts/Peta';
+import BasicModal from '../../elements/Modal';
+import Login from '../../layouts/Login';
 
 export default function Home() {
+  const [value, setValue] = React.useState('1');
+  const [login, setLogin] = useState(false);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  const _handleLogin = () => {
+    setLogin(current => !current);
+  };
+
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div>
       <Head>
-        <title>Home</title>
+        <title>{value === '1' ? 'Beranda' : 'Peta'}</title>
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <a className="text-6xl text-cyan-500 font-bold hover:underline">
-          Codebase Frontend SSR
-        </a>
+      <BasicModal onClose={_handleLogin} open={login}>
+        <Login />
+      </BasicModal>
 
-        <code className="bg-gray-200 p-2 rounded-lg mt-3 text-2xl">
-          Hello World!
-        </code>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          {homepageItemData.items.map((item, idx) => (
-            <HomeCardItem item={item} key={idx} />
-          ))}
+      <main>
+        <div className={styles.header}>
+          <div className="flex items-center">
+            <div className={styles.logo}>
+              <Image alt="" src={logo} />
+            </div>
+            <div className={styles.tpu}>
+              <Image alt="" src={tpu} />
+            </div>
+            <div className={styles.containerTitleHeader}>
+              <div className={styles.titleHeader}>Data TPU</div>
+              <div className={styles.titleCity}>Pemerintah Daerah Kabupaten Bekasi</div>
+            </div>
+          </div>
+          <div className="flex">
+            <TabContext value={value}>
+              <TabList
+                onChange={handleChange}
+                TabIndicatorProps={{ sx: { backgroundColor: '#1EB74C' } }}
+              >
+                <Tab className={styles.titleTab} label="Beranda" value="1" />
+                <Tab className={styles.titleTab} label="Peta" value="2" />
+              </TabList>
+            </TabContext>
+            <Button
+              className={styles.btnLogin}
+              onClick={_handleLogin}
+              size="small"
+              variant="outlined"
+            >
+              Log In
+            </Button>
+          </div>
         </div>
-      </main>
-    </div>
+        {value === '1' ? <ContentHome onManage={_handleLogin} /> : <Map />}
+      </main >
+    </div >
   );
 }

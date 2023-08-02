@@ -1,2 +1,2 @@
-import Home from '../../components/pages/Dashboard';
-export default Home;
+import DashboardPage from '../../components/pages/Dashboard';
+export default DashboardPage;

@@ -1,0 +1,8 @@
+.wrapBtn {
+  background-color: #1EB74C;
+  text-transform: capitalize
+}
+
+.wrapBtn:hover {
+  background-color: #059931;
+}

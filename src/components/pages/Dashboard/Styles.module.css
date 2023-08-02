@@ -1,0 +1,14 @@
+.containerMenu {
+  padding-top: 70px;
+  display: flex;
+}
+
+.containerContent {
+  background-color: #f2f2f2;
+  margin-left: 15%;
+  padding: 20px;
+  overflow-y: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
