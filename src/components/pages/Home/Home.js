@@ -1,5 +1,8 @@
 /* eslint-disable react/jsx-max-depth */
-import React, { useState } from 'react';
+import React, {
+  // useEffect,
+  useState
+} from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import logo from '../../assets/logo.svg';
@@ -13,10 +16,28 @@ import ContentHome from '../../layouts/Home';
 import Map from '../../layouts/Peta';
 import BasicModal from '../../elements/Modal';
 import Login from '../../layouts/Login';
+// import axios from 'axios';
+// import CustomError from '../../../pages/500';
 
 export default function Home() {
   const [value, setValue] = React.useState('1');
   const [login, setLogin] = useState(false);
+  // const [dataAllTPU, setDataAllTPU] = useState({});
+  // const [dataStreets, setDataStreets] = useState({});
+  // const [errorGetData, setErrorGetData] = useState('');
+
+  // useEffect(() => {
+  //   getEvents();
+  // }, []);
+
+  // function getEvents() {
+  //   axios.get('http://localhost:7000/api/inventarisasi/v1/public-user/get-geojson-all-tpu')
+  //     .then((res) => {
+  //       setDataAllTPU(res?.data?.data);
+  //       setErrorGetData('');
+  //     })
+  //     .catch((err) => setErrorGetData(err));
+  // }
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -25,6 +46,17 @@ export default function Home() {
   const _handleLogin = () => {
     setLogin(current => !current);
   };
+
+  let content;
+  if (value === '1') {
+    content = <ContentHome onManage={_handleLogin} />;
+  } else {
+    // if (errorGetData !== '') {
+    //   content = <CustomError />;
+    // } else {
+    content = <Map />;
+    // }
+  }
 
   return (
     <div>
@@ -70,7 +102,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-        {value === '1' ? <ContentHome onManage={_handleLogin} /> : <Map />}
+        {content}
       </main >
     </div >
   );

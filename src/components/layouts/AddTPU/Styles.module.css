@@ -26,11 +26,43 @@
 
 .wrapSHP {
   border: 1px solid rgba(0, 0, 0, .4) !important;
-  padding: 12px;
   border-radius: 4px;
+  color: rgba(0, 0, 0, .6);
+  left: 0;
+  padding: 12px;
+  position: absolute;
   width: 100%;
 }
 
 .wrapSHP:hover {
+  cursor: pointer;
   border-color: #000 !important;
+}
+
+.uploadFile {
+  /* width: 100% !important; */
+  background-color: white;
+  color: grey;
+  font-size: 16px;
+  line-height: 23px;
+  overflow: hidden;
+  padding: 10px 10px 4px 10px;
+  position: relative;
+  resize: none;
+  border: 1px solid rgba(0, 0, 0, .4) !important;
+}
+
+.inputfile {
+  cursor: pointer !important;
+  display: block;
+  font-size: 999px;
+  filter: alpha(opacity=0);
+  min-height: 100%;
+  min-width: 100% !important;
+  opacity: 0;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  top: 0px;
+  z-index: 1;
 }

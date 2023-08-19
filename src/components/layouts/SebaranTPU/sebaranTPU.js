@@ -1,33 +1,46 @@
 import React from 'react';
 import styles from './Styles.module.css';
-import { FormControl, Grid, IconButton, InputLabel, MenuItem, Paper, Select } from '@mui/material';
+import {
+  Grid, IconButton,
+  Paper,
+  // Select,FormControl, InputLabel, MenuItem,
+} from '@mui/material';
 import { Close, InsertDriveFile } from '@mui/icons-material';
 import Map from '../Peta/Map';
 import TableDashboard from '../../elements/TableDashboard';
 import PropTypes from 'prop-types';
+import data from './data';
 
 const dataTPU = [
   {
     title: 'Jumlah TPU yang Sudah Operasional',
-    valu: '4',
+    value: '5',
   },
   {
     title: 'Luas Lahan TPU yang Sudah Operasional',
-    valu: '120.000 Ha',
+    value: '26.65 Ha',
   },
   {
-    title: 'Luas Lahan TPU yang Sudah Operasional',
-    valu: '70.120.000 Ha',
+    title: 'Jumlah TPU yang Belum Operasional/Lahan Cadangan',
+    value: '15',
+  },
+  {
+    title: 'Luas Lahan TPU yang Belum Operasional/Lahan Cadangan',
+    value: '568.67 Ha',
+  },
+  {
+    title: 'Luas Lahan TPU yang Belum Ada Penyerahan',
+    value: '0.73 Ha',
   },
   {
     title: 'Total Luasan TPU Keseluruhan',
-    valu: '70.240.000 Ha',
+    value: '595.33 Ha',
   },
 ];
 
 export default function SebaranTPU({ dataDetail }) {
   const [alert, setAlert] = React.useState(true);
-  const [filterTPU, setFilterTPu] = React.useState('semua');
+  // const [filterTPU, setFilterTPu] = React.useState('semua');
 
   const handleDataDetail = (val) => {
     dataDetail(val);
@@ -37,10 +50,9 @@ export default function SebaranTPU({ dataDetail }) {
     setAlert(false);
   };
 
-  const handleChangeTPU = (e) => {
-    setFilterTPu(e.target.value);
-  };
-
+  // const handleChangeTPU = (e) => {
+  //   setFilterTPu(e.target.value);
+  // };
 
   return (
     <div>
@@ -55,7 +67,8 @@ export default function SebaranTPU({ dataDetail }) {
       }
       <div className={styles.containerHead}>
         <div className={styles.title}>Sebaran TPU</div>
-        <FormControl className={styles.wrappFilter} fullWidth>
+        <div>Anda dapat melihat data seluruh TPU pada halaman ini.</div>
+        {/* <FormControl className={styles.wrappFilter} fullWidth>
           <InputLabel id="demo-simple-select-label">TPU</InputLabel>
           <Select
             id="demo-simple-select"
@@ -65,9 +78,12 @@ export default function SebaranTPU({ dataDetail }) {
             value={filterTPU}
           >
             <MenuItem value="semua">Semua</MenuItem>
+            <MenuItem value="kabalen">Kabalen</MenuItem>
             <MenuItem value="mangunJaya">Mangunjaya</MenuItem>
+            <MenuItem value="pasirTanjung">Pasir Tanjung</MenuItem>
+            <MenuItem value="wanajaya">Wanajaya</MenuItem>
           </Select>
-        </FormControl>
+        </FormControl> */}
       </div>
       <Paper className="p-5 mt-5" elevation={3}>
         <div className={styles.wrapMaps}>
@@ -77,41 +93,21 @@ export default function SebaranTPU({ dataDetail }) {
       <Grid container spacing={1} sx={{ margin: '20px 0px' }}>
         {dataTPU.map((val, idx) => {
           return (
-            <Grid key={idx} xs={3}>
-              <div style={{
-                backgroundColor: '#fff',
-                border: '1px solid #DFE3E8',
-                borderRadius: '8px',
-                display: 'flex',
-                flexDirection: 'column',
-                height: '150px',
-                justifyContent: 'space-between',
-                margin: '7px',
-                padding: '10px',
-
-              }}>
-                <div style={{
-                  color: '#1EB74C',
-                  fontSize: '24px',
-                  fontWeight: 700
-                }}>
-                  {val?.valu}
+            <Grid key={idx} xs={4}>
+              <div className={styles.wrapCount}>
+                <div className={styles.count}>
+                  {val?.value}
                 </div>
-                <div><b>{val?.title}</b></div>
-                <div style={{
-                  alignItems: 'center',
-                  color: '#C4CDD5',
-                  display: 'flex',
-                  fontSize: '12px'
-                }}>
-                  <InsertDriveFile sx={{ color: '#C4CDD5', fontSize: '14px', marginRight: '5px' }} /> Sumber Data : SHP</div>
+                <div style={{ lineHeight: '15px' }}><b>{val?.title}</b></div>
+                <div className={styles.footerCount}>
+                  <InsertDriveFile className={styles.iconSHP} /> Sumber Data : SHP</div>
               </div>
             </Grid>
           );
         })}
       </Grid>
       <div className={styles.title}>Data Keseluruhan</div>
-      <TableDashboard onDetail={(val) => handleDataDetail(val?.newVal)} />
+      <TableDashboard data={data} onDetail={(val) => handleDataDetail(val?.newVal)} />
     </div>
   );
 }

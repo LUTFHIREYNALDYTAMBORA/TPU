@@ -10,12 +10,16 @@ import Details from '../../layouts/Details';
 import Footer from '../../elements/Footer';
 import AddTPU from '../../layouts/AddTPU';
 import AddAkun from '../../layouts/AddAkun';
+import data from '../../layouts/SebaranTPU/data';
 
 export default function DashboardPage() {
   const [content, setContent] = React.useState(0);
   const [pageDetail, setPageDetail] = React.useState(false);
   const [dataDetails, setDataDetails] = React.useState([]);
   const [pageAddTPU, setPageAddTPU] = React.useState(false);
+  const [pageEditTPU, setPageEditTPU] = React.useState(false);
+  // const [idTPU, setIdTPU] = React.useState(false);
+  const [dataTPU, setDataTPU] = React.useState({});
   const [pageAddAkun, setPageAddAkun] = React.useState(false);
 
   const handleMenu = (val) => {
@@ -23,6 +27,7 @@ export default function DashboardPage() {
     setPageDetail(false);
     setPageAddTPU(false);
     setPageAddAkun(false);
+    setPageEditTPU(false);
   };
 
   const handleDataDetail = (val) => {
@@ -35,6 +40,7 @@ export default function DashboardPage() {
       setPageDetail(false);
       setPageAddTPU(false);
       setPageAddAkun(false);
+      setPageEditTPU(false);
     }
   };
 
@@ -42,8 +48,18 @@ export default function DashboardPage() {
     setPageAddTPU(val);
   };
 
+  const handleEditTPU = (val) => {
+    setPageEditTPU(val);
+  };
+
   const handleAddAkun = (val) => {
     setPageAddAkun(val);
+  };
+
+  const handleFindIdTPU = (id) => {
+    let findTPU = data?.data?.filter(val => val?._id === id);
+    let dataTPU = Object.assign({}, ...findTPU);
+    setDataTPU(dataTPU);
   };
 
   let contentDashboard;
@@ -54,10 +70,10 @@ export default function DashboardPage() {
       contentDashboard = <SebaranTPU dataDetail={(val) => handleDataDetail(val)} />;
     }
   } else if (content === 1) {
-    if (pageAddTPU) {
-      contentDashboard = <AddTPU onBack={handleBack} />;
+    if (pageAddTPU || pageEditTPU) {
+      contentDashboard = <AddTPU dataTPU={dataTPU} onBack={handleBack} onEdit={pageEditTPU} />;
     } else {
-      contentDashboard = <KelolaTPU addTPU={handleAddTPU} />;
+      contentDashboard = <KelolaTPU addTPU={handleAddTPU} onEdit={handleEditTPU} onFindIdTPU={handleFindIdTPU} />;
     }
   } else {
     if (pageAddAkun) {

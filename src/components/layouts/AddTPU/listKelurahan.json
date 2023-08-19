@@ -1,0 +1,1117 @@
+{
+  "success": true,
+  "data": [
+    {
+      "_id": "64b0e08dd312a30c6981c127",
+      "name": "Kel.Kebalen",
+      "kecamatanId": "64b0d1a5d312a30c6981bf2f",
+      "kecamatanName": "KEC.BABELAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c12a",
+      "name": "Kel.Bahagia",
+      "kecamatanId": "64b0d1a5d312a30c6981bf2f",
+      "kecamatanName": "KEC.BABELAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c12d",
+      "name": "Ds.Babelankota",
+      "kecamatanId": "64b0d1a5d312a30c6981bf2f",
+      "kecamatanName": "KEC.BABELAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c130",
+      "name": "Ds.Kedungjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf2f",
+      "kecamatanName": "KEC.BABELAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c133",
+      "name": "Ds.Kedungpengawas",
+      "kecamatanId": "64b0d1a5d312a30c6981bf2f",
+      "kecamatanName": "KEC.BABELAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c136",
+      "name": "Ds.Muarabakti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf2f",
+      "kecamatanName": "KEC.BABELAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c139",
+      "name": "Ds.Bunibakti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf2f",
+      "kecamatanName": "KEC.BABELAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c13c",
+      "name": "Ds.Huripjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf2f",
+      "kecamatanName": "KEC.BABELAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c13f",
+      "name": "Ds.Pantaihurip",
+      "kecamatanId": "64b0d1a5d312a30c6981bf2f",
+      "kecamatanName": "KEC.BABELAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c142",
+      "name": "Ds.Karangindah",
+      "kecamatanId": "64b0d1a5d312a30c6981bf32",
+      "kecamatanName": "KEC.BOJONGMANGGU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c145",
+      "name": "Ds.Karangmulya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf32",
+      "kecamatanName": "KEC.BOJONGMANGGU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c148",
+      "name": "Ds.Bojongmanggu",
+      "kecamatanId": "64b0d1a5d312a30c6981bf32",
+      "kecamatanName": "KEC.BOJONGMANGGU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c14b",
+      "name": "Ds.Medalkrisna",
+      "kecamatanId": "64b0d1a5d312a30c6981bf32",
+      "kecamatanName": "KEC.BOJONGMANGGU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c14e",
+      "name": "Ds.Sukabungah",
+      "kecamatanId": "64b0d1a5d312a30c6981bf32",
+      "kecamatanName": "KEC.BOJONGMANGGU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c151",
+      "name": "Ds.Sukamukti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf32",
+      "kecamatanName": "KEC.BOJONGMANGGU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c154",
+      "name": "Ds.Sindangsari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf35",
+      "kecamatanName": "KEC.CABANGBUNGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c157",
+      "name": "Ds.Jayalaksana",
+      "kecamatanId": "64b0d1a5d312a30c6981bf35",
+      "kecamatanName": "KEC.CABANGBUNGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c15a",
+      "name": "Ds.Sindangjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf35",
+      "kecamatanName": "KEC.CABANGBUNGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c15d",
+      "name": "Ds.Setialaksana",
+      "kecamatanId": "64b0d1a5d312a30c6981bf35",
+      "kecamatanName": "KEC.CABANGBUNGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c160",
+      "name": "Ds.Jayabakti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf35",
+      "kecamatanName": "KEC.CABANGBUNGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c163",
+      "name": "Ds.Setiajaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf35",
+      "kecamatanName": "KEC.CABANGBUNGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c166",
+      "name": "Ds.Lenggahsari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf35",
+      "kecamatanName": "KEC.CABANGBUNGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c169",
+      "name": "Ds.Lenggahjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf35",
+      "kecamatanName": "KEC.CABANGBUNGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c16c",
+      "name": "Ds.Ridogalih",
+      "kecamatanId": "64b0d1a5d312a30c6981bf38",
+      "kecamatanName": "KEC.CIBARUSAH"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c16f",
+      "name": "Ds.Ridomanah",
+      "kecamatanId": "64b0d1a5d312a30c6981bf38",
+      "kecamatanName": "KEC.CIBARUSAH"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c172",
+      "name": "Ds.Cibarusahjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf38",
+      "kecamatanName": "KEC.CIBARUSAH"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c175",
+      "name": "Ds.Cibarusahkota",
+      "kecamatanId": "64b0d1a5d312a30c6981bf38",
+      "kecamatanName": "KEC.CIBARUSAH"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c178",
+      "name": "Ds.Wibawamulya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf38",
+      "kecamatanName": "KEC.CIBARUSAH"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c17b",
+      "name": "Ds.Sirnajati",
+      "kecamatanId": "64b0d1a5d312a30c6981bf38",
+      "kecamatanName": "KEC.CIBARUSAH"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c17e",
+      "name": "Ds.Sindangmulya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf38",
+      "kecamatanName": "KEC.CIBARUSAH"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c181",
+      "name": "Ds.Kertamukti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3b",
+      "kecamatanName": "KEC.CIBITUNG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c184",
+      "name": "Ds.Wanajaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3b",
+      "kecamatanName": "KEC.CIBITUNG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c187",
+      "name": "Kel.Wanasari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3b",
+      "kecamatanName": "KEC.CIBITUNG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c18a",
+      "name": "Ds.Muktiwari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3b",
+      "kecamatanName": "KEC.CIBITUNG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c18d",
+      "name": "Ds.Sarimukti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3b",
+      "kecamatanName": "KEC.CIBITUNG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c190",
+      "name": "Ds.Sukajaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3b",
+      "kecamatanName": "KEC.CIBITUNG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c193",
+      "name": "Ds.Cikedokan",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3e",
+      "kecamatanName": "KEC.CIKARANG BARAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c196",
+      "name": "Ds.Telajung",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3e",
+      "kecamatanName": "KEC.CIKARANG BARAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c199",
+      "name": "Ds.Jatiwangi",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3e",
+      "kecamatanName": "KEC.CIKARANG BARAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c19c",
+      "name": "Ds.Mekarwangi",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3e",
+      "kecamatanName": "KEC.CIKARANG BARAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c19f",
+      "name": "Ds.Danauindah",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3e",
+      "kecamatanName": "KEC.CIKARANG BARAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1a2",
+      "name": "Ds.Gandamekar",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3e",
+      "kecamatanName": "KEC.CIKARANG BARAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1a5",
+      "name": "Ds.Sukadanau",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3e",
+      "kecamatanName": "KEC.CIKARANG BARAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1a8",
+      "name": "Ds.Gandasari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3e",
+      "kecamatanName": "KEC.CIKARANG BARAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1ab",
+      "name": "Kel.Telagaasih",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3e",
+      "kecamatanName": "KEC.CIKARANG BARAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1ae",
+      "name": "Ds.Telagamurni",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3e",
+      "kecamatanName": "KEC.CIKARANG BARAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1b1",
+      "name": "Ds.Kalijaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf3e",
+      "kecamatanName": "KEC.CIKARANG BARAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1b4",
+      "name": "Ds.Sukadami",
+      "kecamatanId": "64b0d1a5d312a30c6981bf41",
+      "kecamatanName": "KEC.CIKARANG SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1b7",
+      "name": "Ds.Serang",
+      "kecamatanId": "64b0d1a5d312a30c6981bf41",
+      "kecamatanName": "KEC.CIKARANG SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1ba",
+      "name": "Ds.Ciantara",
+      "kecamatanId": "64b0d1a5d312a30c6981bf41",
+      "kecamatanName": "KEC.CIKARANG SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1bd",
+      "name": "Ds.Sukasejati",
+      "kecamatanId": "64b0d1a5d312a30c6981bf41",
+      "kecamatanName": "KEC.CIKARANG SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1c0",
+      "name": "Ds.Cibatu",
+      "kecamatanId": "64b0d1a5d312a30c6981bf41",
+      "kecamatanName": "KEC.CIKARANG SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1c3",
+      "name": "Ds.Sukaresmi",
+      "kecamatanId": "64b0d1a5d312a30c6981bf41",
+      "kecamatanName": "KEC.CIKARANG SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1c6",
+      "name": "Ds.Pasirsari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf41",
+      "kecamatanName": "KEC.CIKARANG SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1c9",
+      "name": "Ds.Hegarmanah",
+      "kecamatanId": "64b0d1a5d312a30c6981bf44",
+      "kecamatanName": "KEC.CIKARANG TIMUR"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1cc",
+      "name": "Kel.Sertajaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf44",
+      "kecamatanName": "KEC.CIKARANG TIMUR"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1cf",
+      "name": "Ds.Cipayung",
+      "kecamatanId": "64b0d1a5d312a30c6981bf44",
+      "kecamatanName": "KEC.CIKARANG TIMUR"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1d2",
+      "name": "Ds.Jatireja",
+      "kecamatanId": "64b0d1a5d312a30c6981bf44",
+      "kecamatanName": "KEC.CIKARANG TIMUR"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1d5",
+      "name": "Ds.Jatibaru",
+      "kecamatanId": "64b0d1a5d312a30c6981bf44",
+      "kecamatanName": "KEC.CIKARANG TIMUR"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1d8",
+      "name": "Ds.Tanjungbaru",
+      "kecamatanId": "64b0d1a5d312a30c6981bf44",
+      "kecamatanName": "KEC.CIKARANG TIMUR"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1db",
+      "name": "Ds.Karangsari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf44",
+      "kecamatanName": "KEC.CIKARANG TIMUR"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1de",
+      "name": "Ds.Labansari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf44",
+      "kecamatanName": "KEC.CIKARANG TIMUR"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1e1",
+      "name": "Ds.Wangunharja",
+      "kecamatanId": "64b0d1a5d312a30c6981bf47",
+      "kecamatanName": "KEC.CIKARANG UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1e4",
+      "name": "Ds.Mekarmukti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf47",
+      "kecamatanName": "KEC.CIKARANG UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1e7",
+      "name": "Ds.Pasirgombong",
+      "kecamatanId": "64b0d1a5d312a30c6981bf47",
+      "kecamatanName": "KEC.CIKARANG UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1ea",
+      "name": "Ds.Simpangan",
+      "kecamatanId": "64b0d1a5d312a30c6981bf47",
+      "kecamatanName": "KEC.CIKARANG UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1ed",
+      "name": "Ds.Tanjungsari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf47",
+      "kecamatanName": "KEC.CIKARANG UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1f0",
+      "name": "Ds.Cikarangkota",
+      "kecamatanId": "64b0d1a5d312a30c6981bf47",
+      "kecamatanName": "KEC.CIKARANG UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1f3",
+      "name": "Ds.Waluya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf47",
+      "kecamatanName": "KEC.CIKARANG UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1f6",
+      "name": "Ds.Karangraharja",
+      "kecamatanId": "64b0d1a5d312a30c6981bf47",
+      "kecamatanName": "KEC.CIKARANG UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1f9",
+      "name": "Ds.Karangasih",
+      "kecamatanId": "64b0d1a5d312a30c6981bf47",
+      "kecamatanName": "KEC.CIKARANG UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1fc",
+      "name": "Ds.Harjamekar",
+      "kecamatanId": "64b0d1a5d312a30c6981bf47",
+      "kecamatanName": "KEC.CIKARANG UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c1ff",
+      "name": "Ds.Sukamahi",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4a",
+      "kecamatanName": "KEC.CIKARANG PUSAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c202",
+      "name": "Ds.Pasiranji",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4a",
+      "kecamatanName": "KEC.CIKARANG PUSAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c205",
+      "name": "Ds.Cicau",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4a",
+      "kecamatanName": "KEC.CIKARANG PUSAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c208",
+      "name": "Ds.Hegarmukti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4a",
+      "kecamatanName": "KEC.CIKARANG PUSAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c20b",
+      "name": "Ds.Pasirtanjung",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4a",
+      "kecamatanName": "KEC.CIKARANG PUSAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c20e",
+      "name": "Ds.Jayamukti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4a",
+      "kecamatanName": "KEC.CIKARANG PUSAT"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c211",
+      "name": "Ds.Karangrahayu",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4d",
+      "kecamatanName": "KEC.KARANGBAHAGIA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c214",
+      "name": "Ds.Sukakarya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4d",
+      "kecamatanName": "KEC.KARANGBAHAGIA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c217",
+      "name": "Ds.Karangsetia",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4d",
+      "kecamatanName": "KEC.KARANGBAHAGIA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c21a",
+      "name": "Ds.Karangmukti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4d",
+      "kecamatanName": "KEC.KARANGBAHAGIA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c21d",
+      "name": "Ds.Karanganyar",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4d",
+      "kecamatanName": "KEC.KARANGBAHAGIA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c220",
+      "name": "Ds.Karangsatu",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4d",
+      "kecamatanName": "KEC.KARANGBAHAGIA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c223",
+      "name": "Ds.Karangsentosa",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4d",
+      "kecamatanName": "KEC.KARANGBAHAGIA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c226",
+      "name": "Ds.Karangbahagia",
+      "kecamatanId": "64b0d1a5d312a30c6981bf4d",
+      "kecamatanName": "KEC.KARANGBAHAGIA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c229",
+      "name": "Ds.Bojongsari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf50",
+      "kecamatanName": "KEC.KEDUNGWARINGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c22c",
+      "name": "Ds.Karangsambung",
+      "kecamatanId": "64b0d1a5d312a30c6981bf50",
+      "kecamatanName": "KEC.KEDUNGWARINGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c22f",
+      "name": "Ds.Kedungwaringin",
+      "kecamatanId": "64b0d1a5d312a30c6981bf50",
+      "kecamatanName": "KEC.KEDUNGWARINGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c232",
+      "name": "Ds.Waringinjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf50",
+      "kecamatanName": "KEC.KEDUNGWARINGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c235",
+      "name": "Ds.Karangharum",
+      "kecamatanId": "64b0d1a5d312a30c6981bf50",
+      "kecamatanName": "KEC.KEDUNGWARINGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c238",
+      "name": "Ds.Karangmekar",
+      "kecamatanId": "64b0d1a5d312a30c6981bf50",
+      "kecamatanName": "KEC.KEDUNGWARINGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c23b",
+      "name": "Ds.Mekarjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf50",
+      "kecamatanName": "KEC.KEDUNGWARINGIN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c23e",
+      "name": "Ds.Pantai Harapan Jaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf53",
+      "kecamatanName": "KEC.MUARAGEMBONG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c241",
+      "name": "Ds.Jayasakti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf53",
+      "kecamatanName": "KEC.MUARAGEMBONG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c244",
+      "name": "Ds.Pantai Mekar",
+      "kecamatanId": "64b0d1a5d312a30c6981bf53",
+      "kecamatanName": "KEC.MUARAGEMBONG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c247",
+      "name": "Ds.Pantai Sederhana",
+      "kecamatanId": "64b0d1a5d312a30c6981bf53",
+      "kecamatanName": "KEC.MUARAGEMBONG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c24a",
+      "name": "Ds.Pantai Bakti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf53",
+      "kecamatanName": "KEC.MUARAGEMBONG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c24d",
+      "name": "Ds.Pantai Bahagia",
+      "kecamatanId": "64b0d1a5d312a30c6981bf53",
+      "kecamatanName": "KEC.MUARAGEMBONG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c250",
+      "name": "Ds.Bantarsari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c253",
+      "name": "Ds.Bantarjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c256",
+      "name": "Ds.Karangharja",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c259",
+      "name": "Ds.Karanghaur",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c25c",
+      "name": "Ds.Karangjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c25f",
+      "name": "Ds.Karangpatri",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c262",
+      "name": "Ds.Karangreja",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c265",
+      "name": "Ds.Karangsegar",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c268",
+      "name": "Ds.Kertajaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c26b",
+      "name": "Kel.Kertasari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c26e",
+      "name": "Ds.Sumbereja",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c271",
+      "name": "Ds.Sumberurip",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c274",
+      "name": "Ds.Sumbersari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf56",
+      "kecamatanName": "KEC.PEBAYURAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c277",
+      "name": "Ds.Nagacipta",
+      "kecamatanId": "64b0d1a5d312a30c6981bf59",
+      "kecamatanName": "KEC.SERANGBARU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c27a",
+      "name": "Ds.Jayamulya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf59",
+      "kecamatanName": "KEC.SERANGBARU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c27d",
+      "name": "Ds.Sirnajaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf59",
+      "kecamatanName": "KEC.SERANGBARU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c280",
+      "name": "Ds.Nagasari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf59",
+      "kecamatanName": "KEC.SERANGBARU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c283",
+      "name": "Ds.Cilangkara",
+      "kecamatanId": "64b0d1a5d312a30c6981bf59",
+      "kecamatanName": "KEC.SERANGBARU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c286",
+      "name": "Ds.Sukaragam",
+      "kecamatanId": "64b0d1a5d312a30c6981bf59",
+      "kecamatanName": "KEC.SERANGBARU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c289",
+      "name": "Ds.Sukasari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf59",
+      "kecamatanName": "KEC.SERANGBARU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c28c",
+      "name": "Ds.Jayasampurna",
+      "kecamatanId": "64b0d1a5d312a30c6981bf59",
+      "kecamatanName": "KEC.SERANGBARU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c28f",
+      "name": "Ds.Muktijaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5c",
+      "kecamatanName": "KEC.SETU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c292",
+      "name": "Ds.Ragemanunggal",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5c",
+      "kecamatanName": "KEC.SETU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c295",
+      "name": "Ds.Cikarageman",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5c",
+      "kecamatanName": "KEC.SETU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c298",
+      "name": "Ds.Tamanrahayu",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5c",
+      "kecamatanName": "KEC.SETU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c29b",
+      "name": "Ds.Tamansari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5c",
+      "kecamatanName": "KEC.SETU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c29e",
+      "name": "Ds.Ciledug",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5c",
+      "kecamatanName": "KEC.SETU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2a1",
+      "name": "Ds.Cibening",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5c",
+      "kecamatanName": "KEC.SETU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2a4",
+      "name": "Ds.Burangkeng",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5c",
+      "kecamatanName": "KEC.SETU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2a7",
+      "name": "Ds.Cijengkol",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5c",
+      "kecamatanName": "KEC.SETU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2aa",
+      "name": "Ds.Lubangbuaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5c",
+      "kecamatanName": "KEC.SETU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2ad",
+      "name": "Ds.Kertarahayu",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5c",
+      "kecamatanName": "KEC.SETU"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2b0",
+      "name": "Ds.Sukamakmur",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5f",
+      "kecamatanName": "KEC.SUKAKARYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2b3",
+      "name": "Ds.Sukajadi",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5f",
+      "kecamatanName": "KEC.SUKAKARYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2b6",
+      "name": "Ds.Sukalaksana",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5f",
+      "kecamatanName": "KEC.SUKAKARYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2b9",
+      "name": "Ds.Sukakarya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5f",
+      "kecamatanName": "KEC.SUKAKARYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2bc",
+      "name": "Ds.Sukakarsa",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5f",
+      "kecamatanName": "KEC.SUKAKARYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2bf",
+      "name": "Ds.Sukamurni",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5f",
+      "kecamatanName": "KEC.SUKAKARYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2c2",
+      "name": "Ds.Sukaindah",
+      "kecamatanId": "64b0d1a5d312a30c6981bf5f",
+      "kecamatanName": "KEC.SUKAKARYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2c5",
+      "name": "Ds.Sukarukun",
+      "kecamatanId": "64b0d1a5d312a30c6981bf62",
+      "kecamatanName": "KEC.SUKATANI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2c8",
+      "name": "Ds.Sukaasih",
+      "kecamatanId": "64b0d1a5d312a30c6981bf62",
+      "kecamatanName": "KEC.SUKATANI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2cb",
+      "name": "Ds.Sukamanah",
+      "kecamatanId": "64b0d1a5d312a30c6981bf62",
+      "kecamatanName": "KEC.SUKATANI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2ce",
+      "name": "Ds.Sukahurip",
+      "kecamatanId": "64b0d1a5d312a30c6981bf62",
+      "kecamatanName": "KEC.SUKATANI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2d1",
+      "name": "Ds.Banjarsari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf62",
+      "kecamatanName": "KEC.SUKATANI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2d4",
+      "name": "Ds.Sukamulya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf62",
+      "kecamatanName": "KEC.SUKATANI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2d7",
+      "name": "Ds.Sukadarma",
+      "kecamatanId": "64b0d1a5d312a30c6981bf62",
+      "kecamatanName": "KEC.SUKATANI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2da",
+      "name": "Ds.Sukamekar",
+      "kecamatanId": "64b0d1a5d312a30c6981bf65",
+      "kecamatanName": "KEC.SUKAWANGI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2dd",
+      "name": "Ds.Sukadaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf65",
+      "kecamatanName": "KEC.SUKAWANGI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2e0",
+      "name": "Ds.Sukawangi",
+      "kecamatanId": "64b0d1a5d312a30c6981bf65",
+      "kecamatanName": "KEC.SUKAWANGI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2e3",
+      "name": "Ds.Sukabudi",
+      "kecamatanId": "64b0d1a5d312a30c6981bf65",
+      "kecamatanName": "KEC.SUKAWANGI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2e6",
+      "name": "Ds.Sukakerta",
+      "kecamatanId": "64b0d1a5d312a30c6981bf65",
+      "kecamatanName": "KEC.SUKAWANGI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2e9",
+      "name": "Ds.Sukatenang",
+      "kecamatanId": "64b0d1a5d312a30c6981bf65",
+      "kecamatanName": "KEC.SUKAWANGI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2ec",
+      "name": "Ds.Sukaringin",
+      "kecamatanId": "64b0d1a5d312a30c6981bf65",
+      "kecamatanName": "KEC.SUKAWANGI"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2ef",
+      "name": "Ds.Sukaraja",
+      "kecamatanId": "64b0d1a5d312a30c6981bf68",
+      "kecamatanName": "KEC.TAMBELANG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2f2",
+      "name": "Ds.Sukarapih",
+      "kecamatanId": "64b0d1a5d312a30c6981bf68",
+      "kecamatanName": "KEC.TAMBELANG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2f5",
+      "name": "Ds.Sukarahayu",
+      "kecamatanId": "64b0d1a5d312a30c6981bf68",
+      "kecamatanName": "KEC.TAMBELANG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2f8",
+      "name": "Ds.Sukamaju",
+      "kecamatanId": "64b0d1a5d312a30c6981bf68",
+      "kecamatanName": "KEC.TAMBELANG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2fb",
+      "name": "Ds.Sukawijaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf68",
+      "kecamatanName": "KEC.TAMBELANG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c2fe",
+      "name": "Ds.Sukabakti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf68",
+      "kecamatanName": "KEC.TAMBELANG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c301",
+      "name": "Ds.Sukamantri",
+      "kecamatanId": "64b0d1a5d312a30c6981bf68",
+      "kecamatanName": "KEC.TAMBELANG"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c304",
+      "name": "Ds.Lambangjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6b",
+      "kecamatanName": "KEC.TAMBUN SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c307",
+      "name": "Ds.Lambangsari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6b",
+      "kecamatanName": "KEC.TAMBUN SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c30a",
+      "name": "Ds.Tambun",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6b",
+      "kecamatanName": "KEC.TAMBUN SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c30d",
+      "name": "Ds.Setiadarma",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6b",
+      "kecamatanName": "KEC.TAMBUN SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c310",
+      "name": "Kel.Jatimulya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6b",
+      "kecamatanName": "KEC.TAMBUN SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c313",
+      "name": "Ds.Tridayasakti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6b",
+      "kecamatanName": "KEC.TAMBUN SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c316",
+      "name": "Ds.Setiamekar",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6b",
+      "kecamatanName": "KEC.TAMBUN SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c319",
+      "name": "Ds.Mangunjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6b",
+      "kecamatanName": "KEC.TAMBUN SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c31c",
+      "name": "Ds.Sumberjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6b",
+      "kecamatanName": "KEC.TAMBUN SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c31f",
+      "name": "Ds.Mekarsari",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6b",
+      "kecamatanName": "KEC.TAMBUN SELATAN"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c322",
+      "name": "Ds.Satriajaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6e",
+      "kecamatanName": "KEC.TAMBUN UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c325",
+      "name": "Ds.Satriamekar",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6e",
+      "kecamatanName": "KEC.TAMBUN UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c328",
+      "name": "Ds.Sriamur",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6e",
+      "kecamatanName": "KEC.TAMBUN UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c32b",
+      "name": "Ds.Srimahi",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6e",
+      "kecamatanName": "KEC.TAMBUN UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c32e",
+      "name": "Ds.Srimukti",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6e",
+      "kecamatanName": "KEC.TAMBUN UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c331",
+      "name": "Ds.Karangsatria",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6e",
+      "kecamatanName": "KEC.TAMBUN UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c334",
+      "name": "Ds.Jejalenjaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6e",
+      "kecamatanName": "KEC.TAMBUN UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c337",
+      "name": "Ds.Srijaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf6e",
+      "kecamatanName": "KEC.TAMBUN UTARA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c33a",
+      "name": "Kel.Setiaasih",
+      "kecamatanId": "64b0d1a5d312a30c6981bf74",
+      "kecamatanName": "KEC.TARUMAJAYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c33d",
+      "name": "Ds.Pusakarakyat",
+      "kecamatanId": "64b0d1a5d312a30c6981bf74",
+      "kecamatanName": "KEC.TARUMAJAYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c340",
+      "name": "Ds. Setiamulya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf74",
+      "kecamatanName": "KEC.TARUMAJAYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c343",
+      "name": "Ds.Pahlawansetia",
+      "kecamatanId": "64b0d1a5d312a30c6981bf74",
+      "kecamatanName": "KEC.TARUMAJAYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c346",
+      "name": "Ds.Segaramakmur",
+      "kecamatanId": "64b0d1a5d312a30c6981bf74",
+      "kecamatanName": "KEC.TARUMAJAYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c349",
+      "name": "Ds.Segarajaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf74",
+      "kecamatanName": "KEC.TARUMAJAYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c34c",
+      "name": "Ds.Pantaimakmur",
+      "kecamatanId": "64b0d1a5d312a30c6981bf74",
+      "kecamatanName": "KEC.TARUMAJAYA"
+    },
+    {
+      "_id": "64b0e08dd312a30c6981c34f",
+      "name": "Ds.Samudrajaya",
+      "kecamatanId": "64b0d1a5d312a30c6981bf74",
+      "kecamatanName": "KEC.TARUMAJAYA"
+    }
+  ],
+  "message": "Success Get Kelurahan atau Desa",
+  "code": 200
+}

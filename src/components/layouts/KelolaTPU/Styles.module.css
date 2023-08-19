@@ -6,3 +6,14 @@
 .wrapBtn:hover {
   background-color: #059931;
 }
+
+.wrapBtnCancel {
+  border-color: #dbd9d9;
+  color: #000;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.wrapBtnCancel:hover {
+  border-color: #cccccc;
+}
