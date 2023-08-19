@@ -1,3 +1,7 @@
 .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
   color: #1EB74C !important;
 }
+
+.wrapRow:hover {
+  background-color: #e3e6e4;
+}

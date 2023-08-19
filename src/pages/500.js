@@ -1,18 +1,19 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import React from 'react';
-
-import ErrorPages from '../components/elements/ErrorPages/';
+import error from '../components/assets/error.svg';
 
 export default function CustomError() {
   return (
     <>
       <Head>
-        <title>500 - Internal Server Error</title>
+        <title>Error</title>
       </Head>
-      <ErrorPages
-        code="500"
-        title="Oops! We had an error currently, try again later!"
-      />
+      <div style={{ alignItems: 'center', display: 'flex', flexDirection: 'column', justifyContent: 'center', minHeight: '100vh' }}>
+        <Image alt="" src={error} />
+        <div style={{ fontSize: '26px', fontWeight: 'bold' }}>Terjadi Kendala!</div>
+        <div style={{ color: '#ff0000', fontSize: '16px' }}>Silahkan ulangi halaman ini atau tunggu beberapa saat.</div>
+      </div>
     </>
   );
 }

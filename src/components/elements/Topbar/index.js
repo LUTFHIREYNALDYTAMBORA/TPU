@@ -3,13 +3,20 @@ import Image from 'next/image';
 import logo from '../../assets/logo.svg';
 import tpu from '../../assets/tpu.svg';
 import styles from './Styles.module.css';
+import { useRouter } from 'next/router';
 import { Avatar, Button, IconButton, Paper, Popper } from '@mui/material';
 
 export default function Topbar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
 
+  const router = useRouter();
+
   const handleLogout = (event) => {
     setAnchorEl(anchorEl ? null : event.currentTarget);
+  };
+
+  const logout = () => {
+    router.push('/');
   };
 
   const open = Boolean(anchorEl);
@@ -39,7 +46,7 @@ export default function Topbar() {
           Yakin akan Logout?
           <div style={{ alignItems: 'center', display: 'flex', justifyContent: 'flex-end', paddingTop: 15 }}>
             <Button className={styles.wrapBtnCancel} onClick={handleLogout} variant="outlined">Batal</Button>
-            <Button className={styles.wrapBtn} variant="contained">Logout</Button>
+            <Button className={styles.wrapBtn} onClick={logout} variant="contained">Logout</Button>
           </div>
         </Paper>
       </Popper>

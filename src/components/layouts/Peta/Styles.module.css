@@ -1,4 +1,101 @@
 .containerPeta {
   padding-top: 90px;
+  position: relative;
   width: 100% !important;
+}
+
+.wrapListLayer {
+  background-color: #acacad;
+  color: #FFF;
+  padding: 2px;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  position: relative;
+}
+
+.wrapListLayerActive {
+  background-color: #1EB74C;
+  color: #FFF;
+  padding: 2px;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  position: relative;
+}
+
+.wrapListLayer:hover {
+  cursor: pointer;
+}
+
+.wrapMenu {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  background-color: #FFF;
+  border-radius: 4px;
+  left: 50px;
+  padding: 1px;
+  position: absolute;
+  top: 12px;
+  z-index: 400;
+}
+
+.wrapMenuShow {
+  background-color: #1EB74C;
+  border-radius: 4px;
+  left: 302px;
+  padding: 1px;
+  position: absolute;
+  top: 12px;
+  z-index: 400;
+}
+
+.wrapMenu:hover {
+  cursor: pointer;
+}
+
+.wrapMenuShow:hover {
+  cursor: pointer;
+}
+
+.containerMenu {
+  background-color: #FFF;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width: 250px;
+  height: 82vh;
+  z-index: 400;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 0px 10px;
+  font-size: 12px !important;
+  overflow-y: scroll;
+}
+
+.containerMenu:hover {
+  cursor: auto;
+}
+
+.containerMenuHide {
+  display: none;
+}
+
+.wrapCheckbox {
+  align-items: center;
+  display: flex;
+  margin-bottom: -5px;
+}
+
+.wrapCheckboxSingle {
+  align-items: center;
+  border-bottom: 1px dashed #8b8b8c;
+  display: flex;
+  margin-bottom: -5px;
+  padding: 5px 12px;
+  font-weight: bold;
+}
+
+.wrapParentCheckbox {
+  border-bottom: 1px dashed #8b8b8c;
+  padding: 5px 0px;
 }

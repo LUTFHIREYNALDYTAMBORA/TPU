@@ -3,6 +3,7 @@ import React from 'react';
 import TableUser from '../../elements/TableUser';
 import styles from './Styles.module.css';
 import PropTypes from 'prop-types';
+import listAKun from './listAkun';
 
 export default function KelolaAkun({ addAkun }) {
 
@@ -16,7 +17,7 @@ export default function KelolaAkun({ addAkun }) {
         <div style={{ fontSize: '24px', fontWeight: 700 }}>Pengaturan Akun</div>
         <Button className={styles.wrapBtn} onClick={handleAddAKun} variant="contained" >Tambah Data +</Button>
       </div>
-      <TableUser />
+      <TableUser listAkun={listAKun?.data} />
     </div>
   );
 }

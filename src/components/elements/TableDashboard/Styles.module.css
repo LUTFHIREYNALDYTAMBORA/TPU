@@ -19,3 +19,16 @@
 .wrapFilter:hover {
   cursor: pointer;
 }
+
+.wrapLokasi {
+  color: #1EB74C;
+  font-weight: 600;
+}
+
+.wrapLokasi:hover {
+  cursor: pointer;
+}
+
+.wrapRow:hover {
+  background-color: #e3e6e4;
+}

@@ -1,21 +1,25 @@
 import axios from 'axios';
 
-export default function fetch(url, method, param1, param2) {
+export default function fetch(options) {
   return new Promise((resolve, reject) => {
-    axios[method](url, param1, param2)
-      .then(res => resolve(res.data))
+    axios(options)
+      .then(res => {
+        resolve(res.data);
+      })
       .catch(err => {
         const defaultError = {
           code: 500,
           message: 'Failed to fetch data. Please contact developer.',
-          status: 'error'
+          status: 'error',
         };
 
-        if (!err.response) {
+        if (typeof err.response === 'undefined') {
           reject(defaultError);
-        } else if (!err.response.data) {
+        }
+        else if (typeof err.response.data === 'undefined') {
           reject(defaultError);
-        } else {
+        }
+        else {
           reject(err.response.data);
         }
       });

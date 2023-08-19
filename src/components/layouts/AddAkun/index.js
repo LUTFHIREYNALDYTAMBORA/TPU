@@ -5,6 +5,9 @@ import PropTypes from 'prop-types';
 import styles from './Styles.module.css';
 
 export default function AddAkun({ onBack }) {
+  const [nama, setNama] = React.useState('');
+  const [email, setEmail] = React.useState('');
+  const [password, setPassword] = React.useState('');
   const [showPass, setShowPass] = React.useState(false);
 
   const handleBack = () => {
@@ -13,6 +16,22 @@ export default function AddAkun({ onBack }) {
 
   const handlePass = () => {
     setShowPass(current => !current);
+  };
+
+  const handleReset = () => {
+    setNama('');
+    setEmail('');
+    setPassword('');
+  };
+
+  const handleChange = (value, type) => {
+    if (type === 'nama') {
+      setNama(value);
+    } else if (type === 'email') {
+      setEmail(value);
+    } else if (type === 'password') {
+      setPassword(value);
+    }
   };
 
   return (
@@ -34,12 +53,16 @@ export default function AddAkun({ onBack }) {
             fullWidth
             id="outlined-basic"
             label="Nama"
+            onChange={(e) => handleChange(e.target.value, 'nama')}
+            value={nama}
             variant="outlined"
           />
           <TextField
             fullWidth
             id="outlined-basic"
             label="Email"
+            onChange={(e) => handleChange(e.target.value, 'email')}
+            value={email}
             variant="outlined"
           />
           <TextField
@@ -50,13 +73,15 @@ export default function AddAkun({ onBack }) {
               endAdornment: (
                 <InputAdornment position="start">
                   <IconButton onClick={handlePass}>
-                    {showPass ? <VisibilityOff /> : <RemoveRedEyeOutlined />}
+                    {showPass ? <RemoveRedEyeOutlined /> : <VisibilityOff />}
                   </IconButton>
                 </InputAdornment>
               ),
             }}
             label="Password"
-            type={showPass ? 'password' : 'text'}
+            onChange={(e) => handleChange(e.target.value, 'password')}
+            type={showPass ? 'text' : 'password'}
+            value={password}
             variant="outlined"
           />
           <span>
@@ -64,8 +89,16 @@ export default function AddAkun({ onBack }) {
           </span>
         </div>
         <div style={{ alignItems: 'center', display: 'flex', justifyContent: 'flex-end', paddingTop: 15 }}>
-          <Button className={styles.wrapBtnCancel} variant="outlined">Batal</Button>
-          <Button className={styles.wrapBtn} variant="contained">Tambah</Button>
+          <Button className={styles.wrapBtnCancel} onClick={handleReset} variant="outlined">Reset</Button>
+          <Button
+            className={styles.wrapBtn}
+            disabled={
+              !nama || !email || !password ? true : false
+            }
+            variant="contained"
+          >
+            Tambah
+          </Button>
         </div>
       </Paper>
     </div>

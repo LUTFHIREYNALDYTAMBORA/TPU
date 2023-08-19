@@ -20,8 +20,14 @@ import { Button } from '@mui/material';
 import Image from 'next/image';
 import tpu from '../../assets/tpu.svg';
 import PropTypes from 'prop-types';
+// import ReactPlayer from 'react-player/youtube';
+// import video from '../../assets/video.mp4';
+// import videos from '../../../../public/video/video.mp4';
+// import { CldVideoPlayer } from 'next-cloudinary';
+// import VideoPlayer from 'react-video-js-player';
 
 export default function ContentHome({ onManage }) {
+  // const vid = video;
   return (
     <div>
       <div className={styles.firstSection}>
@@ -79,6 +85,23 @@ export default function ContentHome({ onManage }) {
       </div>
 
       <div className={styles.fourthSection}>
+        {/* <video src={(require(videos))} /> */}
+        {/* <video height="500" width="700">
+          <src src="/video/video.mp4" type="video/mp4" />
+        </video> */}
+        {/* <ReactPlayer
+          controls
+          height="50%"
+          url={{ ...video }}
+          width="50%"
+        /> */}
+        {/* <CldVideoPlayer
+          autoPlay
+          loop
+          src="../../assets/video.mp4"
+          src={vid}
+        /> */}
+        {/* <ReactPlayer url="https://www.youtube.com/watch?v=wWgIAphfn2U" /> */}
         <div className={`${styles.h3} text-center mt-10 mb-10`}>Fitur</div>
         <div className="flex item-center">
           <div className={styles.sideLeftFourthSection}>
