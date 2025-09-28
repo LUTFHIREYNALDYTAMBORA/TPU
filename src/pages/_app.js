@@ -16,26 +16,8 @@ function MyApp(props) {
           content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
           name="viewport"
         />
-        <meta
-          content="Standar codebase yang ditentukan untuk Frontend yang menggunakan SSR."
-          name="description"
-        />
-        <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
-
         {/* Favicon */}
         <link href="/favicon.ico" rel="shortcut icon" />
-        <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css"
-          rel="stylesheet"
-        />
-        <link
-          href="https://unpkg.com/video.js@7/dist/video-js.min.css"
-          rel="stylesheet"
-        />
-        <link
-          href="https://unpkg.com/@videojs/themes@1/dist/city/index.css"
-          rel="stylesheet"
-        />
 
         {/* Meta OG Open Graph; Membagikan konten SEO kepada Facebook */}
         <meta content="Codebase Frontend SSR - TelkomDev" name="og:title" />

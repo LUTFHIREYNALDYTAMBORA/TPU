@@ -92,14 +92,14 @@ export default function Home() {
                 <Tab className={styles.titleTab} label="Peta" value="2" />
               </TabList>
             </TabContext>
-            <Button
+            {/* <Button
               className={styles.btnLogin}
               onClick={_handleLogin}
               size="small"
               variant="outlined"
             >
               Log In
-            </Button>
+            </Button> */}
           </div>
         </div>
         {content}

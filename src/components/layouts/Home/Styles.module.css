@@ -8,17 +8,23 @@
 }
 
 .firstSection {
-  padding-top: 120px;
-  background-color: #f0f0f0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
+  background-image: url(../../assets/bgImg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .titleSection1 {
   font-size: 48px;
   font-weight: bold;
+  color: #FFF;
 }
 
 .lahanTPU {
@@ -27,11 +33,15 @@
 
 .descSection1 {
   width: 600px;
+  color: #FFF;
+  /* font-size: 18px; */
+  margin-top: 20px;
 }
 
-.wrappImgSection1 {
+/* .wrappImgSection1 {
+  position: absolute;
   margin-top: 50px;
-}
+} */
 
 .secondSection {
   padding: 50px;

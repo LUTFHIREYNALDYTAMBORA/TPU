@@ -1,4 +1,6 @@
+/* eslint-disable import/extensions */
 /* eslint-disable react/jsx-max-depth */
+/* eslint-disable import/extensions */
 import React from 'react';
 import big from '../../assets/big.svg';
 import bps from '../../assets/bps.svg';
@@ -8,7 +10,8 @@ import fitur1 from '../../assets/fitur1.png';
 import fitur2 from '../../assets/fitur2.png';
 import fitur3 from '../../assets/fitur3.png';
 import location from '../../assets/location.png';
-import section1 from '../../assets/section1.svg';
+// import section1 from '../../assets/section1.svg';
+import section1 from '../../assets/bgImg.png';
 import instagram from '../../assets/instagram.svg';
 import youtube from '../../assets/youtube.svg';
 import facebook from '../../assets/facebook.svg';
@@ -37,16 +40,13 @@ export default function ContentHome({ onManage }) {
         <p className={styles.descSection1}>
           Kelola dan cari informasi rinci tentang lahan TPU serta lokasinya, yang ada pada wilayah Pemerintah Daerah Kabupaten Bekasi dengan mudah dan cepat.
         </p>
-        <Button
+        {/* <Button
           className={styles.btnStartManage}
           onClick={onManage}
           variant="outlined"
         >
           Mulai Kelola <ArrowForwardIos className="ml-2" fontSize="8" />
-        </Button>
-        <div className={styles.wrappImgSection1}>
-          <Image alt="" src={section1} />
-        </div>
+        </Button> */}
       </div>
 
       <div className={styles.thirdSection}>
@@ -110,7 +110,9 @@ export default function ContentHome({ onManage }) {
           <div className={styles.sideRightFourthSection}>
             <div className="flex items-center">
               <p className={styles.h4}>Log In Page</p>
-              <div className={styles.wrappIcon}><MenuAlt1Icon color="white" width={15} /></div>
+              <div className={styles.wrappIcon}>
+                <MenuAlt1Icon color="white" width={15} />
+              </div>
             </div>
             <div>Halaman ini disediakan untuk user yang memiliki akses pada aplikasi seperti Masyarakat dan Admin SKPD</div>
           </div>
@@ -187,12 +189,12 @@ export default function ContentHome({ onManage }) {
             </div>
           </div>
           <div className={styles.sideRightSixthSection}>
-            <a href="https://shorturl.at/ipN49" target="blank">
+            <a href="https://tinyurl.com/yc6m84hd" target="blank">
               <Image alt="" src={location} />
             </a>
             <a
               className={styles.descFooter}
-              href="https://shorturl.at/ipN49"
+              href="https://tinyurl.com/yc6m84hd"
               target="blank"
             >
               Kantor Pemerintah Daerah Kabupaten Bekasi, J5MF+G49, Jl. Wibawa Mukti, Sukamahi, Kec. Cikarang Pusat, Kabupaten Bekasi, Jawa Barat 17530
