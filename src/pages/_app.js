@@ -54,4 +54,4 @@ function MyApp(props) {
   );
 }
 
-export default wrapper.withRedux(MyApp);
+export default wrapper.with(MyApp);
