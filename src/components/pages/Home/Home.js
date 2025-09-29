@@ -8,7 +8,7 @@ import Image from 'next/image';
 import logo from '../../assets/logo.svg';
 import tpu from '../../assets/tpu.svg';
 import styles from './Styles.module.css';
-import { Button } from '@mui/material';
+// import { Button } from '@mui/material';
 import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
@@ -70,7 +70,7 @@ export default function Home() {
 
       <main>
         <div className={styles.header}>
-          <div className="flex items-center">
+          <div className={styles.wrapHeader}>
             <div className={styles.logo}>
               <Image alt="" src={logo} />
             </div>

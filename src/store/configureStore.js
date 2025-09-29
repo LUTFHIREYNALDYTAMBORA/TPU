@@ -1,19 +1,23 @@
+// src/store/configureStore.js
+
+import { configureStore } from '@reduxjs/toolkit';
 import { createWrapper } from 'next-redux-wrapper';
-import { createStore, applyMiddleware, compose } from 'redux';
-import { thunk } from 'redux-thunk';
-import rootReducer from '../reducers/index';
+// import rootReducer from './reducers'; // Asumsikan Anda memiliki file reducers/index.js
 
-const middleware = [thunk];
+// 1. Fungsi untuk membuat Store
+const makeStore = (context) => 
+  configureStore({
+    reducer: {},
+    // Tambahkan middleware lain jika diperlukan
+    middleware: (getDefaultMiddleware) => 
+      getDefaultMiddleware({
+        // Menonaktifkan pemeriksaan serialisasi untuk menghindari warning di dev mode
+        serializableCheck: false, 
+      }),
+    devTools: process.env.NODE_ENV !== 'production',
+  });
 
-const composeEnhancers =
-  typeof window === 'object' &&
-  process.env.ENV_MODE !== 'production' &&
-  window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
-    ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({})
-    : compose;
-
-const enhancer = composeEnhancers(applyMiddleware(...middleware));
-
-const makeStore = () => createStore(rootReducer, enhancer);
-
-export const wrapper = createWrapper(makeStore);
+// 2. Export Wrapper
+// Konfigurasi wrapper Next.js dengan fungsi makeStore
+// Debug: true hanya disarankan di lingkungan pengembangan
+export const wrapper = createWrapper(makeStore, { debug: false });

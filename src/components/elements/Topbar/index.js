@@ -16,7 +16,7 @@ export default function Topbar() {
   };
 
   const logout = () => {
-    router.push('/');
+    router.push('/home');
   };
 
   const open = Boolean(anchorEl);

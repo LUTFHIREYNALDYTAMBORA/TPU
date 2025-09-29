@@ -1,9 +1,8 @@
 module.exports = {
   content: [
-    // Struktur dir mana saja yang akan discan mengandung class utility Tailwind
-    // Array 'content' juga untuk memberi tahu file mana saja yang akan diminify menggunakan purge built-in Tailwind
-    './src/pages/**/*.{html,js,ts,jsx,tsx}',
-    './src/components/**/*.{html,js,ts,jsx,tsx}',
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   plugins: [],
   theme: {

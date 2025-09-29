@@ -29,6 +29,11 @@
   margin-left: 10px;
 }
 
+.wrapHeader {
+  display: flex;
+  align-items: center
+}
+
 .containerTitleHeader {
   margin-left: 30px;
 }
